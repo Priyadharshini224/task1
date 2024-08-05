@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+ <meta charset="UTF-8">
+
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <title>Document</title>
+
+ <style>
+
+  .fb {
+
+   height: 70px;
+
+   width: 70px;
+
+   border-radius: 50%;
+
+   border: none;
+
+   background-color: white;
+
+   position: relative;
+
+  }
+
+  .fb1 {
+
+   height: 24px;
+
+   margin-top: 4px;
+
+  }
+
+  .in {
+
+   height: 70px;
+
+   width: 70px;
+
+   border-radius: 50%;
+
+   border: none;
+
+   margin-left: 30px;
+
+   background-color: white;
+
+   position: relative;
+
+  }
+
+  .in1 {
+
+   height: 24px;
+
+   margin-top: 4px;
+
+  }
+
+  .tw {
+
+   height: 70px;
+
+   width: 70px;
+
+   border-radius: 50%;
+
+   border: none;
+
+   margin-left: 30px;
+
+   background-color: white;
+
+   position: relative;
+
+  }
+
+  .tw1 {
+
+   height: 24px;
+
+   margin-top: 4px;
+
+  }
+
+  .git {
+
+   height: 70px;
+
+   width: 70px;
+
+   border-radius: 50%;
+
+   border: none;
+
+   margin-left: 30px;
+
+   background-color: white;
+
+   position: relative;
+
+  }
+
+  .git1 {
+
+   height: 24px;
+
+   margin-top: 4px;
+
+  }
+
+  .utube {
+
+   height: 70px;
+
+   width: 70px;
+
+   border-radius: 50%;
+
+   border: none;
+
+   margin-left: 30px;
+
+   background-color: white;
+
+   position: relative;
+
+  }
+
+  .utube1 {
+
+   height: 24px;
+
+   margin-top: 4px;
+
+  }
+
+  .tooltip {
+
+   position: absolute;
+
+   bottom: -25px;
+
+   background-color: gray;
+
+   color: white;
+
+   padding: 4px;
+
+   border-radius: 2px;
+
+   display: none;
+
+  }
+
+  .fb:hover .tooltip,
+
+  .tw:hover .tooltip,
+
+  .in:hover .tooltip,
+
+  .git:hover .tooltip,
+
+  .utube:hover .tooltip {
+
+   display: block;
+
+  }
+
+  .d1 {
+
+   display: flex;
+
+   margin-left: 500px;
+
+   margin-top: 300px;
+
+  }
+
+  body {
+
+   background-color: skyblue;
+
+  }
+
+ </style>
+
+</head>
+
+<body>
+
+ <div class="d1">
+
+  <button class="fb">
+
+   <img class="fb1" src="facebook.jpg" />
+
+   <div class="tooltip">Facebook</div>
+
+  </button>
+
+  <button class="tw">
+
+   <img class="tw1" src="twitter.jpg" />
+
+   <div class="tooltip">Twitter</div>
+
+  </button>
+
+  <button class="in">
+
+   <img class="in1" src="insta.jpg" />
+
+   <div class="tooltip">Instagram</div>
+
+  </button>
+
+  <button class="git">
+
+   <img class="git1" src="github.jpg" />
+
+   <div class="tooltip">GitHub</div>
+
+  </button>
+
+  <button class="utube">
+
+   <img class="utube1" src="utube.jpg" />
+
+   <div class="tooltip">YouTube</div>
+
+  </button>
+
+ </div>
+
+</body>
+
+</html>
+
